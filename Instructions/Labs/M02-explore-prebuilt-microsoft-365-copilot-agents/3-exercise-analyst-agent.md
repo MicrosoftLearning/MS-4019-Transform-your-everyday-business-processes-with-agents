@@ -1,52 +1,46 @@
-In any business setting, making sense of data is a critical part of informed decision-making. Whether it's tracking sales performance, summarizing survey results, or understanding trends across multiple projects, data analysis often takes time and effort. It's in these situations where the Analyst agent in Microsoft 365 Copilot Chat can help. This prebuilt agent is designed to assist you with exploring, interpreting, and summarizing your work data through your use of natural language prompts.
+As organizations become more data-driven, the ability to quickly interpret and communicate insights from raw information is a critical skill. Microsoft 365 Copilot's Analyst agent empowers users to do just that by analyzing and visualizing data directly within familiar tools like Excel and Forms. This lab provides a practical walkthrough of how to use the Analyst agent to make sense of existing datasets—whether from surveys, spreadsheets, or poll results—and turn them into actionable insights with minimal effort.
 
-The Analyst agent acts like your personal data assistant. It can scan data in files you have access to (such as Excel spreadsheets, Word documents, and Power BI dashboards) and provide helpful summaries, charts, and insights based on your questions. For instance, if you ask, "What are the key trends in this sales report?" or "Summarize performance by region," Analyst responds with a clear, concise breakdown, often including visuals or summaries you can use directly in reports or presentations.
+In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
 
-:::image type="content" source="../media/analyst-agent.png" alt-text="Screenshot of the prebuilt Analyst agent in Microsoft 365 Copilot Chat." border="true":::
+### Exercise
 
-### Let Analyst do the heavy lifting with your data
+You're tasked with analyzing the survey results that pertain to an internal company initiative called "Project Nexus," a six-week pilot program aimed at improving cross-departmental collaboration through a new digital workspace platform. The project involved employees from various departments including IT, HR, Marketing, and Operations, who were asked to use the platform for daily communication, document sharing, and task management. The project's goal was to evaluate the platform's effectiveness in enhancing productivity, streamlining communication, and meeting project deadlines. 
 
-The Analyst agent thinks like a skilled data scientist, so you can go from raw data to insights in minutes. It's optimized to do advanced data analysis by using chain-of-thought reasoning to iteratively progress through problems. It takes as many steps as necessary to refine its reasoning and provide a high-quality answer that mirrors human analytical thinking. It can run Python to tackle your most complex data queries, and you can view the code it's running in real time and check its work. For example, you can use Analyst to turn raw data that's scattered across multiple spreadsheets into a demand forecast for a new product, a visualization of customer purchasing patterns, or a revenue projection.
+After the pilot concluded, participants were surveyed to assess their satisfaction with the project, the clarity and effectiveness of communication, adherence to the proposed timeline, and their overall experience with the new system. You plan to use the Microsoft 365 Copilot's prebuilt Analyst agent to explore the survey results from Project Nexus. As with any prebuilt agent, you can enter your own custom prompts, or you can use the agent's starter prompts. The Analyst agent's starter prompts are designed to produce quantitative, qualitative, and visualization analysis, and overall project insights and recommendations.
 
-The Analyst agent is especially helpful for recurring tasks like preparing for business reviews, tracking performance metrics, or identifying outliers in your data. It can also help you spot inconsistencies or gaps that might otherwise go unnoticed. You don't need to know advanced Excel formulas or complex BI tools to get started. The Analyst agent understands everyday business language and can interpret your intent. This feature makes it especially useful if you aren't a data expert but still need to work with numbers and reports. It also saves time by automating tasks that might otherwise take hours, such as building a pivot table or creating a chart.
+Perform the following steps to direct the Analyst agent to interpret and visualize the survey results regarding Project Nexus:
 
-One of the most powerful features of Analyst is its ability to connect data across files you recently worked with in Microsoft 365. If you collaborated on a shared Excel sheet or reviewed a PowerPoint deck with embedded tables, Analyst can reference that content to answer your questions more completely. It also respects your file permissions, so it only accesses data you're authorized to see.
+1. Select the following link to download a copy of the [Project Nexus Survey Results](https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx). Select the **Download** button at the top of the screen to download the file to your device.
+1. In **Microsoft Edge**, open a new tab and enter the following URL: [**https://M365copilot.com**](https://M365copilot.com)
+1. In **Microsoft 365**, select the **Analyst** agent if it appears in the navigation pane under the **Agents** section. Otherwise, select **All agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** in the **Built by Microsoft** section. 
+1. In **Microsoft 365**, the **Analyst** agent window appears. In the prompt field, select the **Add content and agents** icon, which is the plus sign (**+**) icon. 
+1. In the menu that appears, select **Upload from this device**. In **File Explorer**, navigate to the **Downloads** folder and select the **Project Nexus Survey Results** file that you downloaded earlier and then select **Open**. 
+1. In the prompt field, enter the following prompt next to the linked Project Nexus Survey Results file: **Analyze this spreadsheet and tell me the top three trends**.
 
-### Sample prompts when working with Analyst
-
-Here's a list of sample prompts you can try with the  prebuilt Analyst agent in Microsoft 365 Copilot Chat. These prompts are designed to be natural and task-oriented, helping users get insights from their data without needing advanced technical skills.
-
-- **Understanding and summarizing data**
-    - "Summarize the key trends in this Excel file."
-    - "What are the top five performing products by revenue?"
-    - "Can you identify any anomalies in this sales data?"
-    - "Give me a quick overview of our Q1 performance."
-- **Creating visuals**
-    - "Create a bar chart showing monthly sales by region."
-    - "Visualize the customer churn rate over the past year."
-    - "Generate a pie chart of expenses by category."
-- **Comparing and filtering**
-    - "Compare this year's revenue to last year's."
-    - "Filter this data to show only North America and EMEA."
-    - "Which departments had the highest cost increases?"
-- **Time-based analysis**
-    - "Show me the sales trend over the last six months."
-    - "What was our average weekly revenue in Q2?"
-    - "Highlight any seasonal patterns in this dataset."
-- **Predictive and what-if scenarios**
-    - "Based on current trends, what will our revenue look like next quarter?"
-    - "What happens if we increase marketing spend by 10%?"
-    - "Forecast customer growth for the next six months."
-
-### Limitations of the Analyst agent
-
-While the Analyst agent is a powerful tool for data analysis and insights, it has a few limitations to be aware of:
-
-- **Requires clear data structure**. The Analyst agent works best when the data you provide is well-organized and clearly structured, such as tables and spreadsheets. If your data is messy, incomplete, or requires substantial cleaning, you might need to prepare it before using the Analyst agent for deeper insights.
-- **Can't replace expert data interpretation**. While Analyst can generate insights based on the data, it doesn't replace domain-specific expertise. For highly specialized analysis or nuanced interpretation, consulting a subject matter expert is recommended.
-- **Doesn't handle non-tabular data well**. The Analyst agent excels with structured, tabular data, such as spreadsheets. For unstructured data like freeform text, images, or raw notes, it may not be as effective in drawing meaningful conclusions without first transforming the data into a structured format (like a table or spreadsheet). These extra steps might involve summarizing or extracting key entities, such as names, dates, numbers, and so on, classifying text into categories, or parsing information into fields and rows.
-- **Requires human review for complex insights**. For complex or critical business decisions, Analyst's results should be viewed as a helpful guide. However, a human should review the final interpretation and decision-making, especially when dealing with high-stakes outcomes.
-- **Limited customization for specialized queries**. While the Analyst agent can handle a broad range of standard data analysis tasks, highly specialized or custom queries might require manual adjustments. If you need specific statistical techniques or complex models, you might need to adjust the outputs or perform extra analysis outside the Analyst agent.
-- **Not a real-time data processor**. Analyst can process static datasets, such as data you upload to a file, but it isn't designed to integrate with real-time or streaming data sources unless specifically set up. You might need to update the data manually for fresh insights.
-- **Unable to automatically detect all data inconsistencies**. While the Analyst agent can help identify obvious data gaps or inconsistencies, it might not catch every issue, especially if those issues are subtle or highly context-dependent. You might need to manually inspect the data to ensure quality.
-- **Doesn't replace advanced Business Intelligence (BI) tools**. Although Analyst can perform advanced data analysis, it isn't a substitute for more complex BI tools, such as Power BI and Tableau, for in-depth reporting, dashboard creation, or enterprise-level data visualization.
+   > [!NOTE]
+   > Note how Analyst runs several Python commands to come up with its final list of trends. You might have to wait a minute or so for it to complete all the commands so that it can aggregate the results and determine the top three trends. Below each command is a description of the results of that command. Continue to scroll down through the results to see the top three trends.
+1. You want to drill deeper into each category, so start out by entering the following prompt: **What is the average rating for each survey category**?
+1. In our testing, the agent returns what appears to be a blank page. In actuality, it isn’t a blank page; it’s just a large chunk of blank space between the agent's response and the prompt field. If the same thing happens to you, scroll up using the vertical scroll bar and you should find the response. And if you scroll all the way down to the bottom of the page, the prompt field should appear. This agent is new, so it appears that all this empty space is an issue that needs to be addressed. On the other hand, by the time you do this exercise, this extra blank space issue might have been fixed. In either case, review the results. If the Analyst agent suggests a next step, such as "Would you like a visual comparison of these averages?" then enter **Yes** in the prompt field (if the blank space issue still persists, you have to scroll to the bottom of the page to see the prompt field).
+1. Again, scroll up to the results of the prior prompt (if necessary) and review them.
+1. At this point, feel free to spend as much time as you want to analyze the survey results using the Analyst agent. You can enter your own custom prompts, or if you wish, try any of these prompts depending on the type of analysis you want to perform:
+   - Quantitative analysis prompts:
+      - **Which category received the highest average rating, and which received the lowest**?
+      - **How many participants rated the project satisfaction as 4 or higher**?
+      - **What percentage of participants rated timeline adherence below 3**?
+      - **Can you identify any correlations between communication effectiveness and overall experience**?
+   - Qualitative analysis prompts:
+      - **Summarize the most common themes in the comments section**.
+      - **Are there any recurring concerns or suggestions mentioned in the comments**?
+      - **Identify any comments that mention issues with communication or timeline**.
+   - Insight and recommendation prompts:
+      - **Based on the survey data, what are the top three strengths of Project Nexus**?
+      - **What are the key areas for improvement suggested by the participants**?
+      - **Provide a summary report of the survey findings with actionable recommendations**.
+   - Quantitative visualization prompts:
+      - **Generate a pie chart of overall ratings distribution**.
+      - **Create a bar chart comparing the average ratings for Project Satisfaction, Communication Effectiveness, Timeline Adherence, and Overall Experience**.
+      - **Plot a histogram of the satisfaction ratings to see the distribution of ratings**.
+      - **Generate a scatter plot to analyze the relationship between Communication Effectiveness and Overall Experience**.
+      - **Create a correlation heatmap for all numeric rating categories**.
+      - **Make a box plot for each rating category to show the range and quartiles**.
+      - **Plot a line graph showing timeline adherence ratings over participants ordered by Participant ID**.
