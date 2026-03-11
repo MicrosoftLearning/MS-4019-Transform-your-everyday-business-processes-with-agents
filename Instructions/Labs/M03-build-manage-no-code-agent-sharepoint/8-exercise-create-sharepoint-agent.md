@@ -1,3 +1,12 @@
+---
+lab:
+  title: Untitled exercise
+  description: 'In this exercise, you want to create a SharePoint agent to help you get quick answers or perform useful actions that are related to a specific SharePoint site you already use. You can perform this exercise using one of the following options:'
+  duration: 48 minutes
+  level: 100
+  islab: true
+---
+
 As organizations rely more heavily on SharePoint to manage knowledge, projects, and team resources, the ability to create intelligent agents that interact with this content becomes a powerful productivity booster. Microsoft 365 Copilot makes it possible to build a SharePoint-based Copilot agent that can quickly surface information, answer questions, and assist users in navigating complex site content. This lab guides you through the process of creating your own SharePoint-connected Copilot agent, one that understands the structure and data of a real site you use every day.
 
 Through this hands-on exercise, you learn how to create a SharePoint site, configure it as a data source, and customize your agent's behavior and responses. From onboarding support to project tracking or team resource assistance, you design and test an agent tailored to your needs. After you complete this lab, you should have a functioning SharePoint agent and a deeper understanding of how AI can make site content more accessible and actionable for users across your team or organization.
