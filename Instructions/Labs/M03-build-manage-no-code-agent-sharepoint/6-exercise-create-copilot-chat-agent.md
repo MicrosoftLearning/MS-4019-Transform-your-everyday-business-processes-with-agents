@@ -1,3 +1,19 @@
+---
+lab:
+  title: Untitled exercise
+  description: In this exercise, you're encouraged to be creative and design an agent
+    that's of significant interest to you. For example, you might want to solve a
+    real-world business problem, improve productivity in a specific area at your company,
+    or address a personal topic that interests you. Because each student creates their
+    own personal agent, the instructions in this exercise focus on the structure and
+    order of how to configure an agent rather than specifying actual values to enter
+    in each field. It's up to you to decide what you want to enter in each field as
+    you create your agent.
+  duration: 54 minutes
+  level: 100
+  islab: true
+---
+
 In this exercise, you're encouraged to be creative and design an agent that's of significant interest to you. For example, you might want to solve a real-world business problem, improve productivity in a specific area at your company, or address a personal topic that interests you. Because each student creates their own personal agent, the instructions in this exercise focus on the structure and order of how to configure an agent rather than specifying actual values to enter in each field. It's up to you to decide what you want to enter in each field as you create your agent.
 
 1. In your Microsoft Edge browser, sign in to the **Microsoft 365** home page (**https://www.microsoft365.com**).
