@@ -1,3 +1,21 @@
+---
+lab:
+  title: Untitled exercise
+  description: As organizations become more data-driven, the ability to quickly interpret
+    and communicate insights from raw information is a critical skill. Microsoft 365
+    Copilot's Analyst agent empowers users to do just that by analyzing and visualizing
+    data directly within familiar tools like Excel and Forms. This lab provides a
+    practical walkthrough of how to use the Analyst agent to make sense of existing
+    datasets—whether from surveys, spreadsheets, or poll results—and turn them into
+    actionable insights with minimal effort.
+  duration: 32 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
+---
+
 As organizations become more data-driven, the ability to quickly interpret and communicate insights from raw information is a critical skill. Microsoft 365 Copilot's Analyst agent empowers users to do just that by analyzing and visualizing data directly within familiar tools like Excel and Forms. This lab provides a practical walkthrough of how to use the Analyst agent to make sense of existing datasets—whether from surveys, spreadsheets, or poll results—and turn them into actionable insights with minimal effort.
 
 In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
