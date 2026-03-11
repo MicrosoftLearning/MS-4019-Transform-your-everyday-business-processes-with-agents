@@ -1,3 +1,21 @@
+---
+lab:
+  title: Untitled exercise
+  description: With a growing ecosystem of specialized, AI-powered agents in Microsoft
+    365 Copilot, users now have the flexibility to choose the right tool for the task
+    at hand. Whether you're preparing for meetings, managing projects, catching up
+    on missed communications, or analyzing data, prebuilt agents are designed to streamline
+    your workflow using your own Microsoft 365 data. This lab offers an open-ended,
+    hands-on opportunity to explore one of these agents, test its capabilities, and
+    apply it to a real productivity challenge from your day-to-day work.
+  duration: 24 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Microsoft 365
+  - Microsoft 365 Copilot
+---
+
 With a growing ecosystem of specialized, AI-powered agents in Microsoft 365 Copilot, users now have the flexibility to choose the right tool for the task at hand. Whether you're preparing for meetings, managing projects, catching up on missed communications, or analyzing data, prebuilt agents are designed to streamline your workflow using your own Microsoft 365 data. This lab offers an open-ended, hands-on opportunity to explore one of these agents, test its capabilities, and apply it to a real productivity challenge from your day-to-day work.
 
 > [!NOTE]
