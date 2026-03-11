@@ -1,3 +1,14 @@
+---
+lab:
+  title: Untitled exercise
+  description: This lab offers a hands-on opportunity to explore how the Researcher agent can help you uncover insights, organize information, and generate polished outputs from your own data, all within the familiar Microsoft 365 environment. Whether you're consolidating project updates, gathering stakeholder input, or preparing for executive discussions, this lab demonstrates how Copilot can enhance your productivity and ensure you're always ready with the right information at the right time.
+  duration: 28 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Microsoft 365
+---
+
 In today's fast-paced workplace, the ability to quickly synthesize large volumes of information is essential for making informed decisions and preparing effectively for meetings and presentations. Microsoft 365 Copilot's Researcher agent is designed to support this need by intelligently pulling together relevant content from across Outlook, OneDrive, and Teams. 
 
 This lab offers a hands-on opportunity to explore how the Researcher agent can help you uncover insights, organize information, and generate polished outputs from your own data, all within the familiar Microsoft 365 environment. Whether you're consolidating project updates, gathering stakeholder input, or preparing for executive discussions, this lab demonstrates how Copilot can enhance your productivity and ensure you're always ready with the right information at the right time.
