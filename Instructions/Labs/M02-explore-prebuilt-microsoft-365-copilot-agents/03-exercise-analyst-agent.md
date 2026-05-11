@@ -11,7 +11,7 @@ As organizations become more data-driven, the ability to quickly interpret and c
 
 In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
 
-### Exercise
+### Exercise 1: Analyze survey results with the Analyst agent
 
 You're tasked with analyzing the survey results that pertain to an internal company initiative called "Project Nexus," a six-week pilot program aimed at improving cross-departmental collaboration through a new digital workspace platform. The project involved employees from various departments including IT, HR, Marketing, and Operations, who were asked to use the platform for daily communication, document sharing, and task management. The project's goal was to evaluate the platform's effectiveness in enhancing productivity, streamlining communication, and meeting project deadlines.
 
