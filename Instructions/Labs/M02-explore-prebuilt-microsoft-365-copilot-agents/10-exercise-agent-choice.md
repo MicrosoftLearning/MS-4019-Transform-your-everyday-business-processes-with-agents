@@ -29,7 +29,7 @@ Perform the following steps to see how the prebuilt agent that you chose can fun
 
 1. In **Microsoft Edge**, open a new tab and enter the following URL: [**https://m365.cloud.microsoft.com**](https://m365.cloud.microsoft.com)
 
-1. In **Microsoft 365**, in the navigation pane, select **All agents**, and then in the **Agent Store** window, in the **Built by Microsoft** section, select the agent of your choice. Remember, don't use the Researcher or Analyst agents. Try a different agent for this exercise.
+1. In **Microsoft 365 Copilot**, in the navigation pane, select **All agents**, and then in the **Agent Store** window, in the **Built by Microsoft** section, select the agent of your choice. Remember, don't use the Researcher or Analyst agents. Try a different agent for this exercise.
 
 1. The goal of this exercise is to interact with the agent using your own data. You should begin by reviewing the agent's built-in prompt suggestions. Try one or two of the sample prompts that appear on the agent page.
 
