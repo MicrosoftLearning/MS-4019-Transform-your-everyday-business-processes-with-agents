@@ -18,7 +18,7 @@ This lab offers a hands-on opportunity to explore how the Researcher agent can h
 
 In this training exercise, you plan to use the Researcher agent to synthesize information across Outlook, OneDrive, and Teams to prepare insights on a topic from your own data.
 
-### Exercise
+### Exercise - Summarize project communications with the Researcher agent
 
 Think of an actual project that you participated in over the past 90 days. Amidst countless emails, meetings, and virtual discussions, you find yourself in need of a comprehensive summary of all communications related to this critical initiative. Microsoft's prebuilt Researcher agent is the perfect tool to synthesize all your communication history and provide a concise recap of all activities.
 
