@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Untitled exercise
+  title: Summarize project communications with the Researcher agent
   description: This lab offers a hands-on opportunity to explore how the Researcher agent can help you uncover insights, organize information, and generate polished outputs from your own data, all within the familiar Microsoft 365 environment. Whether you're consolidating project updates, gathering stakeholder input, or preparing for executive discussions, this lab demonstrates how Copilot can enhance your productivity and ensure you're always ready with the right information at the right time.
   duration: 28 minutes
   level: 100
