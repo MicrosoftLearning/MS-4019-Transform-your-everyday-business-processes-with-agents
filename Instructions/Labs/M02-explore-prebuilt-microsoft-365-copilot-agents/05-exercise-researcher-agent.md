@@ -24,7 +24,7 @@ Think of an actual project that you participated in over the past 90 days. Amids
 
 With a simple command, you can instruct the platform to collate and distill the essence of your emails and chats pertaining to the project over the past month. In doing so, note how the agent effortlessly sifts through the information clutter. It then presents you with a concise summary that not only captures the progress made but also highlights any key decisions, challenges, and emerging trends. This exercise exemplifies how using the Researcher agent can save you valuable time while ensuring you stay well-informed and in control of the crucial aspects of your business endeavors.
 
-1. In **Microsoft 365**, in the navigation pane, select the **Researcher** agent under the **Agents** section. If the **Researcher** agent doesn't appear, select **All agents** in the navigation pane, and then in the **Agent Store** window, select **Researcher** under the **Built by Microsoft** section.
+1. In **Microsoft 365 Copilot**, in the navigation pane, select the **Researcher** agent under the **Agents** section. If the **Researcher** agent doesn't appear, select **All agents** in the navigation pane, and then in the **Agent Store** window, select **Researcher** under the **Built by Microsoft** section.
 
 1. The **Researcher** agent window appears. In the prompt field, enter the following prompt, replacing `<Topic X>` with an actual project name or topic that you participated in at your organization: `Help me gather and summarize all recent discussions, documents, and emails related to <Topic X> from the past 90 days`.
 
