@@ -23,7 +23,7 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
 
 1. In **Microsoft Edge**, open a new tab and enter the following URL: [**https://m365.cloud.microsoft.com**](https://m365.cloud.microsoft.com)
 
-1. In **Microsoft 365**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **All agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
+1. In **Microsoft 365 Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **All agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
 
 1. The **Analyst** agent window appears. In the prompt field, select the **Add and manage sources** icon, which is the plus sign (**+**) icon.
 
