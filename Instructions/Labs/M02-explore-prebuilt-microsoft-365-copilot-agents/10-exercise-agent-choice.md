@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Apply a prebuilt agent to your own project
+  title: Untitled exercise
   description: Once you select an agent, you should explore its capabilities using your own Microsoft 365 data, such as emails, meetings, files, or chat threads. Your goal is to see if you can move the project forward or uncover something you missed. At the end of this exercise, you're also encouraged to try some of the other prebuilt agents to see the types of requests they can help with.
   duration: 24 minutes
   level: 100
