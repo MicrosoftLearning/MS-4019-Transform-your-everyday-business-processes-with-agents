@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Create a SharePoint agent
+  title: Untitled exercise
   description: 'In this exercise, you want to create a SharePoint agent to help you get quick answers or perform useful actions that are related to a specific SharePoint site you already use. You can perform this exercise using one of the following options:'
   duration: 48 minutes
   level: 100
