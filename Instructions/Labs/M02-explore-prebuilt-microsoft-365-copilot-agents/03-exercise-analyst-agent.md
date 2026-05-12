@@ -1,6 +1,6 @@
 ---
 lab:
-  title: Analyze survey data with the Microsoft 365 Copilot Analyst agent
+  title: Untitled exercise
   description: In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
   duration: 32 minutes
   level: 100
