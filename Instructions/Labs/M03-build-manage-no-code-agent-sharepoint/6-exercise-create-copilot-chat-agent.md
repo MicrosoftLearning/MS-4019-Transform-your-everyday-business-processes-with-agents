@@ -21,7 +21,7 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
     - The Agent Builder chat pane on the left enables you to carry on a conversation with Agent Builder to refine your agent.
 
-    - The **Try It** tab enables you to test the agent by entering starter prompts or custom messages. This tab is displayed by default.
+    - The **Try It** tab enables you to test the agent by entering starter prompts or custom messages.
 
     - The **Configure** tab enables you to define the detailed settings that drive the agent.
 
