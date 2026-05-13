@@ -17,7 +17,7 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 1. On the **New Agent** page, enter a prompt that asks Agent Builder to create your new agent. In the prompt, enter the agent’s name along with a brief description that explains what the agent is for, who its target audience is, and what you want it to do. Although you can choose a template at the bottom of the page to base your agent on, don't select a template for this exercise. The purpose of this exercise is to create a fully custom agent from scratch.
 
-1. After you enter a description and select the **Send** button, the **Agent Builder** form should appear for your new agent. The Agent Builder chat pane appears on the left, and the agent details appear on the right. At the top of the form are a **Configure** tab and a **Try It** tab.
+1. After you enter a description and select the **Send** button, the **Agent Builder** form should appear for your new agent. The **Agent Builder** chat pane appears on the left, and the agent details appear on the right. At the top of the form are a **Configure** tab and a **Try It** tab.
 
     - The Agent Builder chat pane on the left enables you to carry on a conversation with Agent Builder to refine your agent.
 
