@@ -1,8 +1,8 @@
 ---
 lab:
-  title: 'Analyze and visualize data with the Analyst agent'
+  title: Use the Analyst agent
   description: In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
-  duration: 32 minutes
+  duration: 15 minutes
   level: 100
   islab: true
 ---

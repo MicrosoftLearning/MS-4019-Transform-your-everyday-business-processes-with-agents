@@ -1,8 +1,8 @@
 ---
 lab:
-  title: 'Create a custom agent from scratch using Agent Builder'
+  title: Create a Copilot Chat agent
   description: In this exercise, you're encouraged to be creative and design an agent that's of significant interest to you. For example, you might want to solve a real-world business problem, improve productivity in a specific area at your company, or address a personal topic that interests you. Because each student creates their own personal agent, the instructions in this exercise focus on the structure and order of how to configure an agent rather than specifying actual values to enter in each field. It's up to you to decide what you want to enter in each field as you create your agent.
-  duration: 54 minutes
+  duration: 20 minutes
   level: 100
   islab: true
 ---
