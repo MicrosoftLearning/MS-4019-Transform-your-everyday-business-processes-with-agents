@@ -18,18 +18,18 @@ Through this hands-on exercise, you learn how to create a SharePoint site, confi
 In this exercise, you want to create a SharePoint agent to help you get quick answers or perform useful actions that are related to a specific SharePoint site you already use. You can perform this exercise using one of the following options:
 
 - If you have access to a SharePoint site, such as a team site, project site, or resource hub, then you can use that site.
-- If you don’t have access to a SharePoint site, then you can still perform the steps in this exercise using a simulated lab environment. The simulation uses a fictitious SharePoint site for Fabrikam. 
+- If you don't have access to a SharePoint site, then you can still perform the steps in this exercise using a simulated lab environment. The simulation uses a fictitious SharePoint site for Fabrikam.
 
-1. If you have a site that you plan to use for this exercise, then navigate to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **SharePoint**. Review the sites that appear in the navigation pane. The site that you select should ideally be one that contains documents, lists, or pages with project information, team resources, or other knowledge sources. For example:
+1. If you have a site that you plan to use for this exercise, then navigate to the **Microsoft 365 Copilot** home page, select the **App Launcher** icon (grid icon) on the top left, and then select **SharePoint**. Review the sites that appear in the navigation pane. The site that you select should ideally be one that contains documents, lists, or pages with project information, team resources, or other knowledge sources. For example:
    - A personal OneDrive site with shared documents
    - A Teams-connected SharePoint site
    - A shared project or department site
 
    Select the SharePoint site that you want to use.
 
-1. If you don’t have a SharePoint site to use for this exercise, then select the following link to open the simulated lab environment in your browser: [Start the simulated SharePoint agent lab](https://app.highlights.guide/start/75485962-4a29-41d8-a8b6-151fca8591c1?token=ac1f6c5a-9d10-4ed5-bd04-d7db595c1d02).
+1. If you don't have a SharePoint site to use for this exercise, then open the simulated lab environment in your browser by navigating to `https://app.highlights.guide/start/75485962-4a29-41d8-a8b6-151fca8591c1?token=ac1f6c5a-9d10-4ed5-bd04-d7db595c1d02`.
 
-    This simulation opens the Mark 8 Team Site for Fabrikam.
+   This simulation opens the Mark 8 Team Site for Fabrikam.
 
 1. There are four places from which you can initiate the process to create a new agent for a site:
    - The SharePoint site's home page
@@ -37,9 +37,9 @@ In this exercise, you want to create a SharePoint agent to help you get quick an
    - The context menu of the selected files in a document library
    - The agent chat pane
 
-    Whether you're using your own SharePoint site or the simulated site, let's use the site's home page. On the site home page, select **+New,** and then in the drop-down menu that appears, select **Agent**.
+    Whether you're using your own SharePoint site or the simulated site, use the site's home page. On the site home page, select **+ New**, and then in the drop-down menu that appears, select **Agent**.
 
-1. On the **Create your new agent** window, the Copilot agent tool in SharePoint creates a draft version of your agent for the selected site. Notice that in the middle of the window, it indicates the source for this agent (which is your selected site). To configure the agent, select **Edit**. The **Create your new agent** window displays the editable form.
+1. On the **Create your new agent** window, the Copilot agent tool in SharePoint creates a draft version of your agent for the selected site. Notice that in the middle of the window, it indicates the source for this agent (which is your selected site). If an **Edit** option is available, select it to view and modify the agent configuration. The **Create your new agent** window then displays the editable form.
 
 1. The **Create your new agent** form has three tabs - **Overview**, **Sources**, and **Behavior**. The **Overview** tab is displayed first by default. From this tab, you must enter the agent's name and purpose. Default values are provided for each field, but you can change them now if you want.
 
@@ -47,17 +47,23 @@ In this exercise, you want to create a SharePoint agent to help you get quick an
 
 1. At this stage, notice that the **Save and close** button is enabled. You could select it at this point, but don't do that yet. If you did, the tool would accept the default knowledge sources and behavioral attributes for your agent. It would also make the agent live instead of keeping it in draft mode. While you could still make changes later, for the purposes of this lab, continue working in draft mode to configure the remaining agent attributes. Select the **Sources** tab.
 
+   > [!NOTE]
+   > Depending on the SharePoint environment, the button label differs. In the updated SharePoint agent experience, this button appears as **Create agent** instead of **Save and close**.
+
 1. The **Sources** tab enables you to define more sources to the draft version of your agent. The default source for a SharePoint agent is the entire SharePoint site. You can see this option in the source field, where the default value is **Sourced from entire site**. This option uses all the data sources in this site. However, if you want to select more granular sources, then select this field, and in the drop-down menu that appears, select **Sourced from document libraries, folders, or files**. You can decide which source option you prefer. If you select the **Sourced from document libraries, folders, or files** option, then complete the following steps:
 
-   1. When you select the **Sourced from document libraries, folders, or files** option, the following option appears below it: **+Add document libraries, folders, or files**. Select this menu option, which displays the **Pick items** window.
+   1. When you select the **Sourced from document libraries, folders, or files** option, the following option appears below it: **+ Add document libraries, folders, or files**. Select this menu option, which displays the **Pick items** window.
 
    1. The **Pick items** window displays the **Documents** folder for the SharePoint site associated with the agent. You have two options for selecting files and folders:
 
       - **Select all the files and folders in the Documents library**. Choose the **Select** button to select the entire Documents library. Doing so returns you to the **Sources** tab, which displays **Documents** below the **Sourced from document libraries, folders, or files** field.
 
-      - **Select specific files and folders within the Documents library**. When you select one or more files or folders, a check mark appears next to the selected files and folders. Doing so returns you the **Sources** tab and displays the selected files and folders below the **Sourced from document libraries, folders, or files** field.
+      - **Select specific files and folders within the Documents library**. When you select one or more files or folders, a check mark appears next to the selected files and folders. Doing so returns you to the **Sources** tab and displays the selected files and folders below the **Sourced from document libraries, folders, or files** field.
 
-1. Once you're back on the **Sources** tab, you can select the **+Add document libraries, folders, or files** option if you want to add more libraries, files, or folders.
+   > [!NOTE]
+   > The SharePoint agent creation experience can vary depending on your SharePoint environment. Some controls and option names might differ from those shown in this exercise. If you don't see **Sourced from entire site** or **Sourced from document libraries, folders, or files**, use the available option to add or manage document libraries, folders, or files as agent knowledge sources.
+
+1. Once you're back on the **Sources** tab, you can select the **+ Add document libraries, folders, or files** option if you want to add more libraries, files, or folders.
 
 1. After you finish defining your sources, select the **Behavior** tab. The **Behavior** tab allows you to define a **Welcome** message, which is displayed when a user selects this agent in SharePoint. This message field is available in SharePoint agents, but not in Copilot Chat agents.
 
@@ -65,7 +71,7 @@ In this exercise, you want to create a SharePoint agent to help you get quick an
 
 1. Finally, you can define the instructions for the agent using natural language text, just like you do when creating an agent in Copilot Chat.
 
-1. After you finish making your changes to the SharePoint agent, select **Save and close** to save your changes. Since you are still in draft mode, saving the draft version of the agent converts it to a live SharePoint agent.
+1. After you finish making your changes to the SharePoint agent, select **Save and close** or **Create agent** to save your changes. Since you are still in draft mode, saving the draft version of the agent converts it to a live SharePoint agent.
 
 1. Select the **X** in the upper corner of the **Create your new agent** window to close it. Doing so returns you to the SharePoint site's home page, and the agent appears on the right side of the window.
 
