@@ -16,7 +16,7 @@ In today's fast-paced workplace, the ability to quickly synthesize large volumes
 This lab offers a hands-on opportunity to explore how the Researcher agent can help you uncover insights, organize information, and generate polished outputs from your own data, all within the familiar Microsoft 365 environment. Whether you're consolidating project updates, gathering stakeholder input, or preparing for executive discussions, this lab demonstrates how Copilot can enhance your productivity and ensure you're always ready with the right information at the right time.
 
 > [!NOTE]
-> This course doesn't include a Microsoft 365 lab tenant with fictitious Outlook and Teams data. Instead, you must complete this training exercise using your own personal data.
+> If you're using a Microsoft 365 lab tenant, review the available content in **Outlook**, **Microsoft Teams**, and **OneDrive** before starting this exercise. Researcher can use emails, conversations, meetings, and files from these applications as sources for analysis. If you're using your own Microsoft 365 environment, Researcher will use the content available to you.
 
 In this training exercise, you plan to use the Researcher agent to synthesize information across Outlook, OneDrive, and Teams to prepare insights on a topic from your own data.
 
