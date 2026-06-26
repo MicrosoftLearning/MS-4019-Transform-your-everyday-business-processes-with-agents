@@ -13,7 +13,7 @@ As organizations become more data-driven, the ability to quickly interpret and c
 
 In this scenario-based exercise, you learn how to use the Analyst agent to explore trends, identify anomalies, and generate visuals that enhance data storytelling. Whether you're reporting on team performance, customer feedback, or operational metrics, this lab shows you how to go from raw numbers to a clear summary or stakeholder-ready charts. It's a powerful way to save time, reduce manual effort, and build confidence in your analytical decision-making with AI-powered support.
 
-### Exercise 1: Analyze survey results with the Analyst agent
+### Exercise - Analyze survey results with the Analyst agent
 
 You're tasked with analyzing the survey results that pertain to an internal company initiative called "Project Nexus," a six-week pilot program aimed at improving cross-departmental collaboration through a new digital workspace platform. The project involved employees from various departments including IT, HR, Marketing, and Operations, who were asked to use the platform for daily communication, document sharing, and task management. The project's goal was to evaluate the platform's effectiveness in enhancing productivity, streamlining communication, and meeting project deadlines.
 
@@ -21,15 +21,17 @@ After the pilot concluded, participants were surveyed to assess their satisfacti
 
 Perform the following steps to direct the Analyst agent to interpret and visualize the survey results regarding Project Nexus:
 
-1. Select the following link to download a copy of the [Project Nexus Survey Results](https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx). Select the **Download file** button at the top of the screen to download the file to your device.
+1. In a web browser, go to the following link to access a copy of the **Project Nexus Survey Results**: `https://github.com/MicrosoftLearning/MS-4004-Empower-workforce-copilot-use-cases/raw/refs/heads/master/ResourceFiles/Project_Nexus_survey_results.xlsx`. Select the **Download file** button at the top of the screen to save the file to your device.
 
-1. In **Microsoft Edge**, open a new tab and enter the following URL: [**https://m365.cloud.microsoft.com**](https://m365.cloud.microsoft.com)
+1. Open a new browser tab, navigate to **Microsoft 365 Copilot** at `https://m365.cloud.microsoft.com`, and sign in using your credentials for this exercise.
 
-1. In **Microsoft 365 Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **All agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
+1. If prompted, choose the option to stay signed in.
+
+1. In **Microsoft 365 Copilot**, in the navigation pane, select **Analyst** under the **Agents** section. If the **Analyst** agent doesn't appear, select **More agents** in the navigation pane, and then in the **Agent Store** window, select **Analyst** under the **Built by Microsoft** section.
 
 1. The **Analyst** agent window appears. In the prompt field, select the **Add and manage sources** icon, which is the plus sign (**+**) icon.
 
-1. In the menu that appears, select **Upload images and files**. In **File Explorer**, navigate to the **Downloads** folder,select the **Project Nexus Survey Results** file that you downloaded earlier, and then select **Open**.
+1. In the menu that appears, select **Upload images and files**. In **File Explorer**, navigate to the **Downloads** folder, select the **Project Nexus Survey Results** file that you downloaded earlier, and then select **Open**.
 
 1. In the prompt field, enter the following prompt next to the linked Project Nexus Survey Results file: `Analyze this spreadsheet and tell me the top three trends`.
 
@@ -38,9 +40,7 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
 
 1. To drill deeper into each category, enter the following prompt: `What is the average rating for each survey category?`
 
-1. Review the results. If the Analyst agent suggests a next step, such as
-   "Would you like a visual comparison of these averages?", enter `Yes` in
-   the prompt field.
+1. Review the results. If the Analyst agent suggests a next step, such as "Would you like a visual comparison of these averages?", enter `Yes` in the prompt field.
 
    > [!NOTE]
    > A large amount of blank space might appear between the agent's
@@ -51,7 +51,7 @@ Perform the following steps to direct the Analyst agent to interpret and visuali
 
 1. If necessary, scroll up to the results of the prior prompt and review them.
 
-1. At this point, feel free to spend as much time as you want to analyze the survey results using the Analyst agent. You can enter your own custom prompts, or if you wish, try any of these prompts depending on the type of analysis you want to perform:
+1. At this point, you can spend as much time as you want analyzing the survey results using the Analyst agent. You can enter your own custom prompts, or try any of these prompts depending on the type of analysis you want to perform:
    - Quantitative analysis prompts:
       - `Which category received the highest average rating, and which received the lowest?`
       - `How many participants rated the project satisfaction as 4 or higher?`
