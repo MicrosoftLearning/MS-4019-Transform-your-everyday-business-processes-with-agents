@@ -71,9 +71,14 @@ In this exercise, you want to create a SharePoint agent to help you get quick an
 
 1. Finally, you can define the instructions for the agent using natural language text, just like you do when creating an agent in Copilot Chat.
 
-1. After you finish making your changes to the SharePoint agent, select **Save and close** or **Create agent** to save your changes. Since you are still in draft mode, saving the draft version of the agent converts it to a live SharePoint agent.
+1. After you finish making your changes to the SharePoint agent, depending on your SharePoint environment, select **Save and close** or **Create agent** to save your changes. Since you are still in draft mode, saving the draft version of the agent converts it to a live SharePoint agent.
+
+   > [!NOTE]
+   > If you experience any issues when creating the agent, select the **Documents** library in the navigation pane, select the folders or files that you want to use as the agent source, and then select **Copilot** > **Create an agent**. This action opens the **Create your new agent** window, where you can continue to configure the agent.
 
 1. Select the **X** in the upper corner of the **Create your new agent** window to close it. Doing so returns you to the SharePoint site's home page, and the agent appears on the right side of the window.
+
+  
 
 1. Take some time to test the agent. You can use any of the starter prompts or enter custom prompts.
 
