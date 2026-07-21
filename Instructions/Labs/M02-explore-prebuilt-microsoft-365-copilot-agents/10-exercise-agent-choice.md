@@ -14,13 +14,13 @@ lab:
 With a growing ecosystem of specialized, AI-powered agents in Microsoft 365 Copilot, users now have the flexibility to choose the right tool for the task at hand. Whether you're preparing for meetings, managing projects, catching up on missed communications, or analyzing data, prebuilt agents are designed to streamline your workflow using your own Microsoft 365 data. This lab offers an open-ended, hands-on opportunity to explore one of these agents, test its capabilities, and apply it to a real productivity challenge from your day-to-day work.
 
 > [!NOTE]
-> This course doesn't include a Microsoft 365 lab tenant with fictitious data. Instead, you must complete this training exercise using your own personal data. 
+> If you're using a Microsoft 365 lab tenant, review the available content in **Outlook**, **Microsoft Teams**, and **OneDrive** before starting this exercise. If you're using your own Microsoft 365 environment, complete this training exercise using your own personal data.
 
 ### Exercise - Choosing the right agent for your project
 
 This hands-on exercise enables you to take a practical approach to understanding Microsoft 365 Copilot Chat's prebuilt agents by applying one to a real situation from your own recent work. Think back to a project you were involved with over the past 90 days—something that required coordination, communication, or follow-up. Maybe it was a report you had to write, a team deliverable that stalled, a client request that got buried in email, or a meeting series where decisions were never clearly documented.
 
-Your task is to select a prebuilt Microsoft 365 Copilot Chat agent that you feel can help resolve or gain insights into your project.
+Your task is to select a prebuilt Microsoft 365 Copilot Chat agent that you feel can help you resolve or gain insights into your project.
 
 > [!IMPORTANT]
 > Earlier exercises in this module used the Analyst and Researcher agents. For this exercise, don't reuse those agents. Instead, use one of the other prebuilt agents to help with your selected project. Doing so ensures you gain experience with the full range of Copilot capabilities and understand which agent is best suited for different types of tasks.
@@ -29,9 +29,9 @@ Once you select an agent, you should explore its capabilities using your own Mic
 
 Perform the following steps to see how the prebuilt agent that you chose can function as a real productivity partner by solving a problem that matters to you:
 
-1. In **Microsoft Edge**, open a new tab and enter the following URL: [**https://m365.cloud.microsoft.com**](https://m365.cloud.microsoft.com)
+1. In **Microsoft Edge**, open a new tab and enter the **Microsoft 365 Copilot** URL `https://m365.cloud.microsoft.com`.
 
-1. In **Microsoft 365 Copilot**, in the navigation pane, select **All agents**, and then in the **Agent Store** window, in the **Built by Microsoft** section, select the agent of your choice. Remember, don't use the Researcher or Analyst agents. Try a different agent for this exercise.
+1. In **Microsoft 365 Copilot**, in the navigation pane, select **More agents**, and then in the **Agent Store** window, in the **Built by Microsoft** section, select the agent of your choice. Remember, don't use the Researcher or Analyst agents. Try a different agent for this exercise.
 
 1. The goal of this exercise is to interact with the agent using your own data. You should begin by reviewing the agent's built-in prompt suggestions. Try one or two of the sample prompts that appear on the agent page.
 
