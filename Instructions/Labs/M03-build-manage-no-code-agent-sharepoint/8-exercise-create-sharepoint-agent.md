@@ -27,7 +27,7 @@ In this exercise, you want to create a SharePoint agent to help you get quick an
 
    Select the SharePoint site that you want to use.
 
-1. If you don't have a SharePoint site to use for this exercise, then open the simulated lab environment in your browser by navigating to `https://cvsr8rrncj-45j80wp5f6.app.highlights.guide/sites/Mark8ProjectTeam`.
+1. If you don’t have a SharePoint site to use for this exercise, then select the following link to open the simulated lab environment in your browser: [Start the simulated SharePoint agent lab](https://cvsr8rrncj-g7aswbmvdv.app.highlights.guide/sites/Mark8ProjectTeam).
 
    This simulation opens the Mark 8 Team Site for Fabrikam.
 
