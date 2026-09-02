@@ -1,19 +1,19 @@
 ---
 lab:
-  title: Create a Microsoft 365 Copilot Chat agent
+  title: Create a Microsoft Copilot agent
   description: In this exercise, you're encouraged to be creative and design an agent that's of significant interest to you. For example, you might want to solve a real-world business problem, improve productivity in a specific area at your company, or address a personal topic that interests you. Because each student creates their own personal agent, the instructions in this exercise focus on the structure and order of how to configure an agent rather than specifying actual values to enter in each field. It's up to you to decide what you want to enter in each field as you create your agent.
   duration: 20 minutes
   level: 100
   islab: true
 ---
 
-# Create a Microsoft 365 Copilot Chat agent
+# Create a Microsoft Copilot agent
 
 In this exercise, you're encouraged to be creative and design an agent that's of significant interest to you. For example, you might want to solve a real-world business problem, improve productivity in a specific area at your company, or address a personal topic that interests you. Because each student creates their own personal agent, the instructions in this exercise focus on the structure and order of how to configure an agent rather than specifying actual values to enter in each field. It's up to you to decide what you want to enter in each field as you create your agent.
 
 ### Exercise - Build a custom agent with Agent Builder
 
-1. In your Microsoft Edge browser, sign in to the **Microsoft 365 Copilot** home page at `https://m365.cloud.microsoft.com`.
+1. In your **Microsoft Edge** browser, open the **Microsoft Copilot** home page at `https://m365.cloud.microsoft.com`.
 
 1. In the left navigation pane, under **Agents**, select **New agent**. Doing so opens Agent Builder and displays the **New Agent** page.
 
@@ -33,7 +33,7 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 1. At this point, Agent Builder typically generates a draft for your agent and may suggest ways to refine it or encourage you to test its behaviour. You can continue refining the agent by responding to follow-up questions, selecting suggested prompts, or providing additional instructions until you're happy with the results.
 
-   > **Important:**
+   > [!IMPORTANT]
    > The beauty of the Agent Builder process is that it automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
 
 1. Once you're satisfied with the agent's description, select the **Configure** tab at the top of the form. Let's see what Agent Builder did based on your finalized description.
@@ -48,11 +48,11 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 1. Review Agent Builder's recommendations. If you're pleased with its suggestions, ask Agent Builder to add them to the agent's instructions.
 
-1. Once Agent Builder responds that it updated the instructions, select the **Configure** tab and scroll through the **Instructions**. Note the new items that Agent Builder added.
+1. Once Agent Builder responds that it updated the instructions, on the **Configure** tab, scroll through the **Instructions**. Note the new items that Agent Builder added.
 
 1. Now that you're satisfied with the instructions, you're ready to configure the agent's knowledge sources and suggested prompts. On the **Configure** tab, scroll down to the **Knowledge** section. You should add any relevant data sources, such as SharePoint sites, documents, websites, or other sources that your agent should reference.
 
-   > **Warning:**
+   > [!WARNING]
    > If you don't add any public websites or work data to your agent, it might still be able to respond to your requests, but only using general capabilities of the underlying large language model (LLM), such as answering common knowledge questions, basic reasoning, or generating generalized text. As such, it's recommended that you ground your agents in specific work data or public websites; otherwise, the agent's responses might lack the context or relevance needed for business-specific tasks.
 
 1. In the **Suggested prompts** section, **Agent Builder** displays the suggested prompts that it automatically created when you entered the agent's description. You can edit or delete any of the existing prompts or add new ones.
@@ -65,9 +65,9 @@ In this exercise, you're encouraged to be creative and design an agent that's of
 
 1. Once the agent is created, a dialog box appears that confirms the agent was created successfully. In the dialog box, you can either start chatting with the agent or share it. Select **Start chat**.
 
-   > **Note:**
+   > [!NOTE]
    > At this stage, the agent is private and accessible only to you. In a real-world scenario where the agent needs to be used by multiple team members, you would share it with those individuals. For this training exercise, sharing isn't required since you're working within your own tenant.
 
 1. On your agent's window, note how the agent appears in the navigation pane. Enter any of the starter prompts or any other custom prompts to test the agent.
 
-1. When you're done using the agent, under **Agents**, select **More agents** in the navigation pane. The **Agent Store** window appears and displays your agent in the **Your agents** section. You can access the agent from the Agent Store at any time, or you can select the pin icon next to the agent in the navigation pane to keep it visible under the list of agents.
+1. When you're done using the agent, on the navigation pane, under **Agents**, select **More agents**. The **Agent Store** window appears and displays your agent in the **Your agents** section. You can access the agent from the Agent Store at any time, or you can select the **Pin** icon next to the agent to keep it visible under the list of agents.
